@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ThaiNgocPhat/Config-Repo
+          uri: https://github.com/ThaiNgocPhat/Config_Repo
 eureka:
   client:
     service-url:
