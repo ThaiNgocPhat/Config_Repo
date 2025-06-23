@@ -25,16 +25,18 @@ jwt:
   expired:
     access: ${JWT_EXPIRATION:864000}
 
+# springdoc:
+#   api-docs:
+#     path: /api-docs
+#   swagger-ui:
+#     path: /docs
 springdoc:
-  api-docs:
-    path: /api-docs
   swagger-ui:
-    path: /docs
-
+    path: /swagger-ui.html
 
 eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://discovery-service:8761/eureka
+      defaultZone: http://eureka-server:8761/eureka
