@@ -6,7 +6,7 @@ spring:
     name: vocabulary-lesson
 
   datasource:
-    url: jdbc:mysql://localhost:3306/vocabulary_lesson?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql:3306/vocabulary_lesson?createDatabaseIfNotExist=true
     username: root
     password: mapyeugau110418
     driver-class-name: com.mysql.cj.jdbc.Driver
