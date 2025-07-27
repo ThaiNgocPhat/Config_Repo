@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: vocabulary-lesson
+    name: vocabulary-lesson-service
 
   datasource:
     url: jdbc:mysql://mysql:3306/vocabulary_lesson_db?createDatabaseIfNotExist=true
